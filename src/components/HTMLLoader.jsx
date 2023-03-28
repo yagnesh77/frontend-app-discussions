@@ -61,4 +61,4 @@ HTMLLoader.defaultProps = {
   delay: 0,
 };
 
-export default HTMLLoader;
+export default React.memo(HTMLLoader);
